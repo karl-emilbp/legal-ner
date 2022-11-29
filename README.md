@@ -3,7 +3,8 @@ Repository for supervised and few-shot named entity recognition in the danish le
 
 ## Data
 This repository provides datasets for named entity recognition in the danish legal domain in the data folder:
-- danish_legal_ner_dataset.conll
+
+1. danish_legal_ner_dataset.conll
   - train.conll
 
 This dataset is used for supervised named entity recognition and consists of 2415 sentences annotated with 8 named entities:
@@ -18,7 +19,7 @@ This dataset is used for supervised named entity recognition and consists of 241
 
 The train.conll file is a processed version of danish_legal_ner_dataset.conll.
 
-- few_shot_new_dataset.conll
+2. few_shot_new_dataset.conll
   - test.conll
 
 This dataset is used for evaluating few-shot named entity recognition algortihm in the danish legal domain and consists of 1480 sentences annotated with 5 named entities:
