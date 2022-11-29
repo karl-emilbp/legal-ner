@@ -29,10 +29,16 @@ This dataset is used for evaluating the few-shot named entity recognition algori
 - Litteratur
 - Sagsnummer
 
-The test.conll file is a processed version of few_shot_new_dataset.conll.
+The test.conll file is a processed version of few_shot_ner_dataset.conll.
 
 ## Usage
 The src folder provides scripts for training and evaluating supervised and few-shot named entity recognition models.
+
+Install requirements:
+
+```bash
+pip install -r requirements.txt
+```
 
 To fine-tune a transformer model for supervised named entity recognition on the dataset danish_legal_ner_dataset.conll, run the following script:
 ```bash
