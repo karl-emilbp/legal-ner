@@ -22,7 +22,7 @@ The train.conll file is a processed version of danish_legal_ner_dataset.conll.
 2. few_shot_new_dataset.conll
   - test.conll
 
-This dataset is used for evaluating few-shot named entity recognition algortihm in the danish legal domain and consists of 1480 sentences annotated with 5 named entities:
+This dataset is used for evaluating the few-shot named entity recognition algorithm in the danish legal domain and consists of 1480 sentences annotated with 5 named entities:
 - Land
 - By
 - Retspraksis
