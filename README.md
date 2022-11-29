@@ -50,3 +50,5 @@ To evaluate a few-shot algorithm based on StructShot using a sampled support and
 ```bash
 python fewshot.py --data_dir ../data/ --labels ../data/labels.txt --target_labels ../data/labels_few_shot.txt --train_fname train --sup_fname <path-to-support-set-file> --test_fname <path-to-query-set-file> --model_name_or_path <huggingface-model-name> --checkpoint huggingface-remote-or-local-model-checkpoint<> --output_dir <path-to-output-dir> --algorithm StructShot --gpus 1 --eval_batch_size <eval_batch_size>
 ```
+
+Few-shot algorithm is based on structshot algorithm, which can be found here: https://github.com/asappresearch/structshot
